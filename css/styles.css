@@ -1,0 +1,68 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+h1{
+  float: left;
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+li{
+  float: left;
+  margin-left: 3em;
+}
+
+div{
+  float: right;
+  margin-top: 3em;
+}
+
+section{
+  height: 600px;
+  position: relative;
+  font-size: 20px;
+  
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+
+section .phone{
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+div{
+  position: absolute;
+  top: 80px;
+  left: 560px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.price{
+  font-size: 24px;
+}
+
+button{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
